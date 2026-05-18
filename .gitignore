@@ -1,0 +1,63 @@
+# ───── Datasets (downloaded, never committed) ─────
+datasets/
+data/raw/
+data/construction-ppe/
+data/kaggle-css/
+data/merged/
+*.zip
+*.tar.gz
+
+# ───── Trained model weights & runs ─────
+runs/
+weights/
+*.pt
+*.pth
+*.h5
+*.keras
+*.onnx
+*.tflite
+
+# ───── Results, figures, logs ─────
+results/*
+!results/.gitkeep
+logs/
+wandb/
+tensorboard/
+mlruns/
+
+# ───── Python ─────
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.venv/
+venv/
+env/
+ENV/
+*.egg-info/
+.installed.cfg
+*.egg
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# ───── Jupyter ─────
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# ───── IDE / OS ─────
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ───── Secrets ─────
+.env
+.env.local
+kaggle.json
+access_token
+*.key

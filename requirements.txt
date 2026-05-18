@@ -1,0 +1,24 @@
+# Core ML stack
+ultralytics>=8.4.0          # YOLOv8 (Stage 1)
+torch>=2.0.0
+torchvision>=0.15.0
+
+# Classical CV / data
+pillow>=10.0.0
+numpy>=1.24.0
+opencv-python>=4.8.0
+
+# Dataset & utilities
+kaggle>=1.6.0               # Kaggle API for Stage-2 dataset
+imagehash>=4.3.1            # pHash deduplication
+pyyaml>=6.0
+
+# Analysis & plotting
+pandas>=2.0.0
+matplotlib>=3.7.0
+seaborn>=0.13.0
+scikit-learn>=1.3.0
+
+# Optional — for notebook work
+jupyterlab>=4.0.0
+ipykernel>=6.25.0
