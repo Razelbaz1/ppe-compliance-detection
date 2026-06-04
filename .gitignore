@@ -18,8 +18,11 @@ weights/
 *.tflite
 
 # ───── Results, figures, logs ─────
-results/*
-!results/.gitkeep
+# results/ is committed for reproducibility, except for noisy subdirs:
+results/logs/
+results/wandb/
+results/tensorboard/
+results/mlruns/
 logs/
 wandb/
 tensorboard/
