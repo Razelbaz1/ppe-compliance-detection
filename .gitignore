@@ -46,6 +46,9 @@ ENV/
 .ipynb_checkpoints/
 *.ipynb_checkpoints
 
+# Private notebook-build / utility scripts (not part of the deliverable)
+notebooks/_*.py
+
 # ───── IDE / OS ─────
 .vscode/
 .idea/
