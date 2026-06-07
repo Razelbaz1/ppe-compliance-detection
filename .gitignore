@@ -20,6 +20,8 @@ weights/
 # Exception: weights produced by the pipeline ARE committed (under results/)
 !results/**/weights/
 !results/**/weights/*
+!results/**/*.keras
+!results/**/*.pt
 
 # ───── Results, figures, logs ─────
 # results/ is committed for reproducibility, except for noisy subdirs:
