@@ -1,0 +1,6 @@
+path: C:/Users/LAB/RAZ/Deep_Learning_course/ppe-compliance-detection/datasets/processed_stage1
+train: train/images
+nc: 1
+names:
+- Person
+val: test_in_domain/images
