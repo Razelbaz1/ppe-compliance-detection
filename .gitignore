@@ -23,6 +23,11 @@ weights/
 !results/**/*.keras
 !results/**/*.pt
 
+# Exception to the exception: the fine-tuned ResNet50 is too large for GitHub
+# (~200MB including Adam optimizer state). It lives in Google Drive instead.
+# To use it locally, sync from: MyDrive/PPE_Project/stage2_results/resnet50_finetuned/
+results/stage2/resnet50_finetuned/best.keras
+
 # ───── Results, figures, logs ─────
 # results/ is committed for reproducibility, except for noisy subdirs:
 results/logs/
